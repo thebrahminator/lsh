@@ -11,6 +11,9 @@
 #define LSH_LINE_BUFFER 1024
 #define EXIT_SUCCESS 1
 #define EXIT_FAILURE 0
+#define LSH_TOK_BUFSIZE 64
+#define LSH_TOK_DELIM " \t\n\a\r"
+
 
 char *lsh_read_line()
 {
@@ -50,6 +53,23 @@ char *lsh_read_line()
             
         }
     }
+}
+
+void **lsh_split_line(char *line)
+{
+    int bufsize = LSH_TOK_BUFSIZE, position = 0;
+    char **tokens = malloc(bufsize * sizeof(char*));
+    char *token;
+    
+    if(!token)
+    {
+        fprintf(stderr, "LSH: Allocation Error\n");
+        exit(EXIT_FAILURE);
+        
+    }
+    
+    token = strtok(line, LSH_TOK_DELIM);
+    
 }
 void lsh_loop(void){
     char* line;

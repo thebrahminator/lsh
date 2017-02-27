@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0FA4E8E4-AE9C-43A9-981A-3D918BE8458D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>lsh</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>905F216DEB7BD544A571D255782EA314D23BB433</key>
+		<string>https://github.com/thebrahminator/lsh.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>lsh.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>905F216DEB7BD544A571D255782EA314D23BB433</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/thebrahminator/lsh.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>905F216DEB7BD544A571D255782EA314D23BB433</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>905F216DEB7BD544A571D255782EA314D23BB433</string>
+			<key>IDESourceControlWCCName</key>
+			<string>lsh</string>
+		</dict>
+	</array>
+</dict>
+</plist>
